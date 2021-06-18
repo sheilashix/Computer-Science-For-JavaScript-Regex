@@ -132,7 +132,7 @@ is used to search for 6 letter palindrome.
 ```
 
 ### Look-ahead and Look-behind
-look-ahead and look-behind matches characters and then gives up the match returing the result. They do not consume characters in a string but only assert whether a match is possible or not.
+look-ahead and look-behind matches characters and then gives up the match returning the result. They do not consume characters in a string but only assert whether a match is possible or not.
 ```
 look-ahead 
 X(?=Y) look for X but match only when followed by Y
